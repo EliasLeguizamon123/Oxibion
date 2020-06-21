@@ -1,0 +1,164 @@
+
+body{
+	background: rgba(0, 0, 0, 0);
+	font-family: 'Roboto', sans-serif;
+}
+/*---------------------HEAD PAGE*/
+.logo{
+	width: 40px;
+}
+.menu{
+	position: fixed;
+	top: 0;
+}
+.principal{
+	height: 100vh;
+	width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/images/HERO.jpeg)no-repeat center center fixed;
+  background-size: cover;
+  color: #FAF9E3;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cta{
+	text-align: left;
+}
+.vertical-centered-text {
+  -ms-display: flex;
+  display: flex;
+  /* alineacion hotizontal */
+   /* alineacion vertical */
+
+}
+
+.cta{
+	text-align: center;
+}
+h1{
+	font-weight: 700;
+	font-size: 50px;
+	color: rgba(255,255,255,.7);
+}
+/*-------------------------CHANGE COLOR h1---------------------*/
+.hex {
+    color: #FFF;
+    background-image: -webkit-linear-gradient(92deg,#9F1D85,#EF136C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 5s infinite linear;
+		font-size: 32px;
+}
+
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(360deg);
+    }
+}
+/*------------------NOSOTROS-------------------------------------*/
+.nosotros{
+	width: 100%;
+	height: 150vh;
+	text-align: center;
+	padding-top: 150px;
+	height: 100vh;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	animation-name: move;
+	background-image: url('https://i.pinimg.com/564x/0c/e5/9d/0ce59dde5ef60161f9d0e65d91ca9a76.jpg');
+}
+.nosotros h2{
+	font-weight: 100;
+	font-size: 40px;
+}
+.nosotros p{
+	padding-top: 40px;
+	font-size: 20px;
+}
+/*------------------------SERVICIOS-----------------------------*/
+.servicios{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	height: 150vh;
+}
+.tarjetas{
+	padding-right: 5px;
+}
+.servicios h2{
+	font-weight: 100;
+	font-size: 40px;
+}
+/*----------------------SOCIAL------------------------------------------*/
+.social{
+	text-align: center;
+}
+.social img{
+	width: 30%;
+	text-align: center;
+}
+/*-----------------------------------------FOOTER---------------------------*/
+#footer{
+	height: 50vh;
+	padding-top: 30px;
+}
+footer h1{
+	text-align: center;
+	font-weight: 100;
+}
+.col-xs-4{
+	text-align: center;
+}
+.copy{
+	padding-top: 30px;
+	text-align: left;
+}
+.contacto {
+	background-color: grey;
+}
+/*-------------------------RESPONSIVE DESIGN---------------------*/
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) { }
+@media only screen and (min-width: 324px) and (max-width: 736px) {
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+  /* iPhone only */
+  /* Styles */
+  .off {
+    display: none !important;
+  }
+  .on {
+    display: block !important;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+  .social img{
+  	width: 100%;
+  }
+  .botonera li a {
+    font-size: 13px;
+}
+.nosotros{
+	height: 400px;
+	overflow: hidden;
+	padding-top: 15px;
+}
+#home{
+	padding-top: 65px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+footer{
+	padding-top: 10px;
+}
